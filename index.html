@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+<div id="container">
+    <div class="form-wrapper">
+        <h1>Register</h1>
+        <form id="register-form">
+            <h2>
+                Phone number
+                <input id="phone-input" type="tel" placeholder="Phone Number" required>
+            </h2>
+            <h2>
+                Birth date
+                <input id="date-input" type="date" placeholder="Birth Date" required>
+            </h2>
+            <h2>
+                Password
+                <input id="password-input" type="password" placeholder="Password" required>
+            </h2>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="form-wrapper" style="margin-top: 3%">
+        <h1>Credentials</h1>
+        <div id="credentials">
+            <h2>Phone number:</h2>
+            <p id="phone"></p>
+            <h2>Birth date:</h2>
+            <p id="date"></p>
+            <h2>Password: </h2>
+            <p id="password"></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
