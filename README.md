@@ -17,4 +17,8 @@ JavaScript validation ensures:
 - Birth date is in format YYYY-MM-DD and the user is born before the current date.
 - Password is at least 8 characters long and contains at least one lowercase letter, one uppercase letter, and one number.
 
+![wrong phone.png](readme%20imgs%2Fwrong%20phone.png)
+
 Upon successful submission, the entered details are displayed in the "Credentials" section.
+
+![correct submit.png](readme%20imgs%2Fcorrect%20submit.png)
